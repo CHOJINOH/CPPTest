@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|c:\\users\\whwls\\onedrive\\\uBB38\uC11C\\unityhub\\car\\assets\\script\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wheel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\assets\\script\\customcarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\customcarcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\assets\\script\\wheelattachmentssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F9212E2-498F-3E17-88EB-5F55920B82A0}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\wheelattachmentssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WheelAttachmentsSystem.cs",
+              "DocumentMoniker": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\WheelAttachmentsSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\WheelAttachmentsSystem.cs",
+              "ToolTip": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\WheelAttachmentsSystem.cs",
+              "RelativeToolTip": "Assets\\Script\\WheelAttachmentsSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:28:27.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomCarController.cs",
+              "DocumentMoniker": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\CustomCarController.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\CustomCarController.cs",
+              "ToolTip": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\CustomCarController.cs",
+              "RelativeToolTip": "Assets\\Script\\CustomCarController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvzYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:27:50.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Wheel.cs",
+              "DocumentMoniker": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\Wheel.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Wheel.cs",
+              "ToolTip": "C:\\Users\\whwls\\OneDrive\\\uBB38\uC11C\\Unityhub\\Car\\Assets\\Script\\Wheel.cs",
+              "RelativeToolTip": "Assets\\Script\\Wheel.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAQwHcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T19:27:18.316Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
