@@ -52,7 +52,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2538313024841451235, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 504575916490611675, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 2645474277201651116, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 5515002067374455655, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 2292415219917698979, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 3077395128357510525, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 4577325590160657876, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
+    - {fileID: 6439428870006845921, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
     m_RemovedGameObjects:
     - {fileID: 2904120193610774370, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
     m_AddedGameObjects: []
@@ -129,9 +137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c5bc483f987024f9cce096a9d5ffd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
-  grip: 1
   isSteerable: 0
+  visualWheel: {fileID: 0}
 --- !u!1 &3172402323627018931 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7043018458676346540, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
@@ -170,9 +177,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c5bc483f987024f9cce096a9d5ffd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
-  grip: 1
   isSteerable: 0
+  visualWheel: {fileID: 0}
 --- !u!1 &5248370505219582373 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 391397315203931578, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
@@ -211,9 +217,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c5bc483f987024f9cce096a9d5ffd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
-  grip: 1
   isSteerable: 0
+  visualWheel: {fileID: 0}
 --- !u!1 &6410900647243445496 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1532183532590448871, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
@@ -280,13 +285,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ec03d073848f0a4883a41c2a494dff2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  turnSpeed: 50
-  wheels:
-  - {fileID: 4310011020906555559}
-  - {fileID: 5065323517401118185}
-  - {fileID: 5444609743130504161}
-  - {fileID: 588536614845901307}
 --- !u!1 &8863069674528757620 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3982450954767655787, guid: c4cad50aa03bbca42938fe318344950b, type: 3}
@@ -325,6 +323,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03c5bc483f987024f9cce096a9d5ffd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 10
-  grip: 1
   isSteerable: 0
+  visualWheel: {fileID: 0}

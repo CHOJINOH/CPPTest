@@ -4,24 +4,39 @@ using UnityEngine;
 
 public class CustomCarController : MonoBehaviour
 {
-    public float speed = 10f; // 자동차 이동 속도
-    public float turnSpeed = 50f; // 자동차 회전 속도
-    public Wheel[] wheels; // 연결된 바퀴들
+    // 자동차 이동 속도
+    private float speed = 10f;
+    // 자동차 회전 속도
+    private float turnSpeed = 50f;
+    // 연결된 바퀴들
+    private Wheel[] wheels;
 
+    // Rigidbody 변수
     private Rigidbody rb;
 
     void Start()
     {
+        // Rigidbody 가져오기
         rb = GetComponent<Rigidbody>();
         if (rb == null)
         {
             Debug.LogError($"{gameObject.name}에 Rigidbody가 없습니다! Rigidbody를 추가하세요.");
             return;
         }
+
+        // 자식 객체에서 Wheel 컴포넌트 가져오기
+        wheels = GetComponentsInChildren<Wheel>();
+        if (wheels == null || wheels.Length == 0)
+        {
+            Debug.LogError("자동차에 연결된 바퀴가 없습니다. 바퀴들을 자식 객체로 추가하세요.");
+            return;
+        }
     }
 
     void FixedUpdate()
     {
+        if (wheels == null || wheels.Length == 0) return;
+
         // 사용자 입력
         float forwardInput = Input.GetAxis("Vertical");
         float turnInput = Input.GetAxis("Horizontal");
@@ -38,7 +53,9 @@ public class CustomCarController : MonoBehaviour
         // 바퀴 동작 처리
         foreach (Wheel wheel in wheels)
         {
-            if (wheel.isSteerable) // 앞바퀴만 조향
+            if (wheel == null) continue; // 만약 wheel이 null이면 무시합니다.
+
+            if (wheel.IsSteerable) // 앞바퀴만 조향
             {
                 wheel.Steer(turnInput);
             }
